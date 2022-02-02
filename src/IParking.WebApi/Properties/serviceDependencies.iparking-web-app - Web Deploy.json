@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/IParkingWebApiapi/apis/IParkingWebApi",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/iparking/databases/IParkingDb",
+      "type": "mssql.azure",
+      "connectionId": "DevConnection",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
